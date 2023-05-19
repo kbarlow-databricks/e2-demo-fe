@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kevin.barlow/Documents/GitHub/e2-demo-fe/kedro/iris/mlruns/673775091461182540/fcebefe828f547639e54a97a1b1ce2e4/artifacts
+end_time: 1683260199307
+entry_point_name: ''
+experiment_id: '673775091461182540'
+lifecycle_stage: active
+run_id: fcebefe828f547639e54a97a1b1ce2e4
+run_name: __default__
+run_uuid: fcebefe828f547639e54a97a1b1ce2e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683260192067
+status: 3
+tags: []
+user_id: kevin.barlow
