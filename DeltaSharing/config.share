@@ -1,1 +1,6 @@
-{"shareCredentialsVersion":1,"bearerToken":"7nNKGLoEKVH8Yp7_n_KXk5xTnfb4Rj2curepc6Pu-UI76Sjq0Gvu5ILu6G_MP5WB","endpoint":"https://oregon.cloud.databricks.com/api/2.0/delta-sharing/metastores/b169b504-4c54-49f2-bc3a-adf4b128f36d","expirationTime":"2023-08-27T19:01:32.574Z"}
+{
+    "shareCredentialsVersion": 1,
+    "bearerToken": "7nNKGLoEKVH8Yp7_n_KXk5xTnfb4Rj2curepc6Pu-UI76Sjq0Gvu5ILu6G_MP5WB",
+    "endpoint": "https://oregon.cloud.databricks.com/api/2.0/delta-sharing/metastores/b169b504-4c54-49f2-bc3a-adf4b128f36d",
+    "expirationTime": "2023-08-27T19:01:32.574Z"
+}
