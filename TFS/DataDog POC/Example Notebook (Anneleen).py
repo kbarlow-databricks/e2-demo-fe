@@ -16,16 +16,6 @@ from pyspark.sql import SparkSession
 from collections.abc import Iterator
 
 
-
-
-AWS_SECRET_ACCESS_KEY = "QSs94QZskKOiuDJ6pgcPkUrBuTAjnaDWoRhXYcM5"
-
-AWS_ACCESS_KEY_ID = "AKIASEYYH3NODHR3MO4A"
-
-#Check if the file has specific value
-
- 
-
 def is_data_collector_package(json_content):
 
     try:
@@ -190,15 +180,7 @@ unzip_schema = StructType(
 
  
 
-# COMMAND ----------
-
- 
-
-s3_source = "s3://dc-distributionpackages-production/distributionpackages/CentralProduction/2024/2/27"
-
-#s3_source = "s3://aig-msd-distributionpackages-poc"
-
- 
+# COMMAND ---------
 
 #Autoloader
 
@@ -263,7 +245,6 @@ data = (
    
 
 )
-
  
 
 # import dlt
@@ -277,6 +258,3 @@ data = (
 #   return spark.writeStream.format("delta").option("checkpointLocation", "/tmp/delta/_checkpoints/")
 
 
-
-
-data.select("path").display()
